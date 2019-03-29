@@ -1,4 +1,4 @@
-FROM nextcloud:15.0
+FROM nextcloud:latest
 
 COPY ./after-install.sh /after-install.sh
 
